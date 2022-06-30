@@ -1,6 +1,6 @@
 {
-    "name":"MedusaMusic🎵",
-    "description":"A Telegram bot for Download songs in mp3 format from YouTube and Extract lyrics from Genius.com ❤️",
+    "name":"SansMusicx",
+    "description":"A Discord bot for listening songs ❤️",
     "keywords": [
         "Discord bot",
         "Music-bot",
@@ -30,15 +30,12 @@
             "required":true
         },
     },
-    "buildpacks":[
-        {
-            "url":"heroku/java"
-        },     
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
     }
+  ]
 }
