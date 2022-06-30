@@ -51,6 +51,8 @@ Advanced configuration
 
 ### 📑 Installation
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RUSANS-hub/SansMusicx)
+
 To use the project correctly you will need some tools.
 
 [FFmpeg](https://www.ffmpeg.org) to process audio
