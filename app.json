@@ -1,0 +1,44 @@
+{
+    "name":"MedusaMusic🎵",
+    "description":"A Telegram bot for Download songs in mp3 format from YouTube and Extract lyrics from Genius.com ❤️",
+    "keywords": [
+        "Discord bot",
+        "Music-bot",
+        "Lyrics",
+        "Genius",
+        "heroku",
+      ],
+    "repository": "https://github.com/RUSANS-hub/SansMusicx",
+    "logo":"  ",
+    "stack":"heroku-20",
+    "image":"heroku/java",
+    "success_url":"https://www.rubensansidar.site",
+    "env":{
+        "px":{
+            "description":"Enter trigger character to summon your bot",
+            "value":"!, ., $, *",
+            "required":true
+        },
+        "token":{
+            "description":"Get your API ID from https://https://discord.com/developers/applications/",
+            "value":"",
+            "required":true
+        },
+        "playing":{
+            "description":"Enter a sentence for bot status",
+            "value":"-! For Playing.",
+            "required":true
+        },
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/java"
+        },     
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
