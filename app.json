@@ -14,7 +14,7 @@
     "postdeploy": "bundle exec rake bootstrap"
   },
   "env": {
-    "px":{
+         "px":{
             "description":"Enter trigger character to summon your bot",
             "value":"!, ., $, *",
             "required":true
