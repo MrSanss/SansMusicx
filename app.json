@@ -1,60 +1,11 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "Discord Bot",
-    "Music Bot",
-    "Discord"
-  ],
-  "website": "https://rubensansidar.site/",
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "https://rubensansidar.site/",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-         "px":{
-            "description":"Enter trigger character to summon your bot",
-            "value":"!, ., $, *",
-            "required":true
-        },
-        "token":{
-            "description":"Get your API ID from https://https://discord.com/developers/applications/",
-            "value":"",
-            "required":true
-        },
-        "playing":{
-            "description":"Enter a sentence for bot status",
-            "value":"-! For Playing.",
-            "required":true
-        },
-    },
-    
-  "image": "heroku/ruby",
-  "addons": [
-    "openredis",
-    {
-      "plan": "mongolab:shared-single-small",
-      "as": "MONGO"
-    },
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.5"
-      }
-    }
-  ],
+  "name": "SansMusicx",
+  "description": "A Discord bot for listening songs ❤️",
+  "repository": "https://github.com/RUSANS-hub/SansMusicx",
+  "keywords": ["discord-bot", "music-bot"],
   "buildpacks": [
     {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
-    }
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    },
   ],
-  "environments": {
-    "test": {
-      "scripts": {
-        "test": "bundle exec rake test"
-      }
-    }
-  }
 }
