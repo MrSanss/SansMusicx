@@ -1,4 +1,4 @@
-# Music-bot
+# SansMusicx
 
 A complete code to download for a music bot 🎧
 
