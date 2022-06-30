@@ -4,8 +4,6 @@ A complete code to download for a music bot 🎧
 
 Looking for a code for a music bot ? This fully open source code is made for your project !
 
-If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/5cGSYV8ZZj).
-
 *If you don't have any development knowledge, it is recommended to join the Discord support server to get help.*
 
 ### ⚡ Configuration
@@ -17,7 +15,7 @@ module.exports = {
     app: {
         px: 'XXX',
         token: 'XXX',
-        playing: 'by Zerio ❤️'
+        playing: 'XXX'
     },
 
     opt: {
@@ -61,7 +59,7 @@ To use the project correctly you will need some tools.
 
 Without forgetting of course the code editor ^^
 
-Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
+Realized with ❤️ by [RuSans](https://github.com/RUSANS-hub).
 
 Please do not withdraw the license and keep the credits on this project.
 
